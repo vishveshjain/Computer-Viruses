@@ -1,0 +1,20 @@
+X=MsgBox("deleting system32",0+64,"windows")
+X=MsgBox("windows has finnished removing system32 ",0+64,"windows") x=msgbox("fatal error while oppening FILE NAME HERE,system32 is corrupted or missing", 0+48, "fatal error") x=msgbox("searching for backup file for system 32,allow task?", 4+16, "system 32 corrupted or missing") x=msgbox("unable to find backup files for system32,search for help online?", 3+64, "critical error") x=msgbox("failed to load internet explorer,load additional internet browsers?", 3+32, "internet explorer not responding") x=msgbox("critical error,reboot the computer?", 4+16, "error") variable=inputbox ("input password to reboot system","password","input password here") X=MsgBox("password incorrect",2+64,"password") variable=inputbox ("input password to reboot system","password","input password here") X=MsgBox("password incorrect",2+64,"password") variable=inputbox ("input password to reboot system","password","input password here") X=MsgBox("password correct",0+16,"password") X=MsgBox("failed to acces data from (c/windows/syste32/FXStemp/bootdata.dll/sys=reboot",4+16,"error") X=MsgBox("fatal memory_data error,we advise to shut down windows to prevent further damage ",0+64,"password") variable=inputbox ("contact microsoft windows support","microsoft support","input request") X=MsgBox("request has been sent to the support team,the solution(if availible)will be sent to the following email adress:'INSERT EMAIL HERE'",0+64,"microsoft windows support")
+
+add another window if you want with the code down bellow just to tell the victim it was just a harmless prank
+
+====================================================================================
+
+NOTE:you can change the error messages with the following code
+
+X=MsgBox("Message Description",0+16,"Title")
+
+you can change the numbers and the message icon will change
+
+16 = Critical Icon, 0 = only the OK button 4=yes and no
+
+32 = Help Icon, 1=ok and cancel 5=retry and cancel
+
+48 = Warning Icon, 2=abort,retry and ignore
+
+64 = Information Icon 3=yes, no and cancel
