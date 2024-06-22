@@ -1,0 +1,1 @@
+Once activated, the program will become uncontrollable and begin generating repetitive messages.
