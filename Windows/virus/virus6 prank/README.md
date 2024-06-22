@@ -1,0 +1,1 @@
+This program is designed as a harmless prank to playfully startle the user. It won't harm the system in any way.

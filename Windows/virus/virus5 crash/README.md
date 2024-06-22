@@ -1,0 +1,1 @@
+This will open Notepad program infinite times to crash the system.
